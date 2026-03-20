@@ -36,7 +36,7 @@ function showResult() {
     resultText = `
     🎀 You are Original Barbie! <br><br>
     You are elegant, timeless, and effortlessly classy. You appreciate tradition, beauty, and sophistication. 
-    People admire your grace and your ability to stay poised in any situation. You have a classic charm that never goes out of style.
+    People admire your grace and your ability to stay calm in any situation. You have a classic charm that never goes out of style.
     `;
   } else if (maxType === "seventies") {
     resultText = `
@@ -47,7 +47,7 @@ function showResult() {
   } else if (maxType === "twothousands") {
     resultText = `
     💿 You are 2000s Barbie! <br><br>
-    You are confident, glamorous, and full of energy. You love trends, fun, and expressing yourself boldly. 
+    You are confident, glamorous, and full of energy. You love trends, fun, and expressing yourself. 
     You light up every room you walk into and aren’t afraid to stand out and shine.
     `;
   } else {
