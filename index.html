@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Barbie Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- START SCREEN -->
+<div id="startScreen" class="start-screen">
+  <h1>✨ What Kind of Barbie Are You? ✨</h1>
+  <p class="subtitle">by Kelsye M. Perez 💖</p>
+
+  <button onclick="startQuiz()" class="start-btn">
+    Start Quiz 💕
+  </button>
+</div>
+
+<!-- QUIZ -->
+<div id="quiz" style="display:none;">
+
+  <div class="question" id="q1">
+    <p>How would you describe your style?</p>
+    <button onclick="choose('original')">Classic and elegant 💅</button>
+    <button onclick="choose('seventies')">Natural and free 🌼</button>
+    <button onclick="choose('twothousands')">Glam and trendy 💿</button>
+    <button onclick="choose('modern')">Confident and bold ✨</button>
+  </div>
+
+  <div class="question" id="q2" style="display:none;">
+    <p>What is your perfect day like?</p>
+    <button onclick="choose('original')">A fancy outing or tea party ☕</button>
+    <button onclick="choose('seventies')">Being outdoors 🌿</button>
+    <button onclick="choose('twothousands')">Shopping 🛍️</button>
+    <button onclick="choose('modern')">Self-growth 💡</button>
+  </div>
+
+  <div class="question" id="q3" style="display:none;">
+    <p>Pick a music vibe:</p>
+    <button onclick="choose('original')">Soft jazz 🎶</button>
+    <button onclick="choose('seventies')">Groovy 🎸</button>
+    <button onclick="choose('twothousands')">Pop 🎤</button>
+    <button onclick="choose('modern')">Empowering 🔥</button>
+  </div>
+
+  <div class="question" id="q4" style="display:none;">
+    <p>What’s your dream career?</p>
+    <button onclick="choose('original')">Model 👗</button>
+    <button onclick="choose('seventies')">Artist 🎨</button>
+    <button onclick="choose('twothousands')">Influencer 🌟</button>
+    <button onclick="choose('modern')">Entrepreneur 💼</button>
+  </div>
+
+  <div class="question" id="q5" style="display:none;">
+    <p>How do people describe you?</p>
+    <button onclick="choose('original')">Classy 🌸</button>
+    <button onclick="choose('seventies')">Free 🌼</button>
+    <button onclick="choose('twothousands')">Outgoing 💖</button>
+    <button onclick="choose('modern')">Independent ✨</button>
+  </div>
+
+  <div id="result"></div>
+
+  <button id="restart" onclick="restartQuiz()" style="display:none;">
+    Restart Quiz 🔄
+  </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
